@@ -5,10 +5,11 @@ let handler = async m => m.reply(`𝚂𝚄𝙿𝙿𝙾®𝚃 𝙶𝚁𝙾𝚄�
 
 *${mssg.link}*: https://whatsapp.com/channel/0029VaKNbWkKbYMLb61S1v11
 
-★${developer}★
+*OWNER*
+${developer}
 `.trim())
 handler.help = ['support']
 handler.tags = ['main']
-handler.command = ['support'] 
+handler.command = ['support', 'sup'] 
 
 export default handler
