@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import ytdl from 'ytdl-core';
+import ytdl from 'youtubedl-core';
 import { Client } from 'undici';
 import { fileURLToPath } from 'url';
 import fetch from 'node-fetch';
@@ -22,12 +22,12 @@ let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) =
   const response = await fetch(url);
   const data = await response.buffer();
 
-  const caption = `✼ ••๑⋯❀ Y O U T U B E ❀⋯⋅๑•• ✼
-❒ Author: ${author || 'Unknown'}	  
-❏ ${mssg.title}: ${title || 'Unknown'}
-❒ ${mssg.desc}: ${description || 'No description available'}
-❒ ${mssg.link}: ${args[0]}
-⊱─━⊱༻●༺⊰━─⊰`;
+  const caption = `╭━━━━⊱𝗬𝗢𝗨𝗧𝗨𝗕𝗘⊱━━━━𓅓
+🚀 Author: ${author || 'Unknown'}	  
+🎉 ${mssg.title}: ${title || 'Unknown'}
+📃 ${mssg.desc}: ${description || 'No description available'}
+🖇️ ${mssg.link}: ${args[0]}
+╰━━━━━𝗣-𝗠𝗗━━━━━━𓅓`;
 
   conn.sendFile(m.chat, data, `${title || 'video'}.mp4`, caption, m, false, { asDocument: chat.useDocument });
   await m.react('✅')
