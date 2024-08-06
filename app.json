@@ -35,12 +35,17 @@
     "antidelete": {
       "description": "BOT will forward deleted messages if you make it true",
       "required": false,
-      "value": "false"
+      "value": "true"
        },
     "BOT_NAME": {
       "description": "Put your BOT a name",
       "required": true,
       "value": "ᴛʜᴇ-ᴘʀɪɴᴄᴇ-ᴍᴅ-ʙᴏᴛ"
+      },
+    "DATABASE_URL": {
+      "description": "Put your MongoDB here",
+      "required": false,
+      "value": ""
       },
     "DL_MSG": {
       "description": "Video downloader caption",
