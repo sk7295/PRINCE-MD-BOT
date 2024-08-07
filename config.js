@@ -26,9 +26,9 @@ for (let i = 0; i < ownerlist.length; i += 2) {
 //💌------------------------------------------💌
 
 
-//💌global.pairingNumber = "" //put your bot number here💌
-global.mods = ['923042205427'] 
-global.prems = ['']
+//💌global.pairingNumber = "8294304913" //put your bot number here💌
+global.mods = ['7295938602'] 
+global.prems = ['7295938602']
 global.allowed = ['']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
@@ -125,9 +125,9 @@ global.developer = 'https://wa.me/message/DCAK67ON3XVOG1' //contact
 
 //Sticker WM
 global.botname = process.env.BOT_NAME
-global.princebot = '🛡️𝘗𝘙𝘐𝘕𝘊𝘌-𝘉𝘖𝘛-𝘔𝘋🛡️'
-global.packname = 'Prince♥️' 
-global.author = 'Prince♥️' 
+global.princebot = '🛡️SHANKAR BOT🛡️'
+global.packname = 'Shankar Suman♥️' 
+global.author = 'Shankar♥️' 
 global.princeig = 'https://www.instagram.com' 
 global.princegp = 'https://whatsapp.com/channel/0029VaKNbWkKbYMLb61S1v11'
 global.menuvid = 'https://i.imgur.com/GFAAXqw.mp4'
